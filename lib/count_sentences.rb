@@ -15,7 +15,8 @@ class String
   end
 
   def count_sentences
-    array = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
+    clean_sentence = self.split
+    updated_sentnece = clean_sentence.join(" ")
     array.split(",")
     binding.pry
   end
