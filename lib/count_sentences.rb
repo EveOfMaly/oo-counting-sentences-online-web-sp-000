@@ -17,7 +17,7 @@ class String
   def count_sentences
     clean_sentence = self.split
     updated_sentnece = clean_sentence.join(" ")
-    array.split(",")
+    update
     binding.pry
   end
 end
