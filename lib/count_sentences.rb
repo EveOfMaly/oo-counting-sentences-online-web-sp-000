@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    clean_sentence = self.split
+    self.split
     updated_sentence = clean_sentence.join(" ")
     updated_sentence.
     binding.pry
