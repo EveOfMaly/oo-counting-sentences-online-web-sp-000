@@ -16,8 +16,8 @@ class String
 
   def count_sentences
     self.split
-    updated_sentence = clean_sentence.join(" ")
-    updated_sentence.
+    self.split(/[.?!]+/).count
+
     binding.pry
   end
 end
